@@ -1,4 +1,4 @@
-# Islamic Prayer Times and Random Hadith Web App
+# Islamic Prayer Times and Random Hadith Web Extension
 
 An extension that displays Islamic prayer times based on the user's location, along with a random hadith. The extension has a dark mode feature, a button to toggle between showing and hiding the hadith, and a countdown for the next prayer time.
 
