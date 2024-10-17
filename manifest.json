@@ -12,9 +12,6 @@
     }
   },
   "permissions": ["geolocation", "storage"],
-  "background": {
-    "service_worker": "popup.js"
-  },
 
   "icons": {
     "16": "icon.png",
