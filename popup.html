@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Times</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Prayer Times</h2>
+        <div id="location"></div>
+        <div id="hijri-date"></div>
+
+        <ul id="prayer-times"></ul>
+
+        <div class="countdown">
+            <p>Next Prayer: <span id="next-prayer"></span></p>
+            <p>Time Left: <span id="countdown-timer"></span></p>
+        </div>
+
+        <!-- <button id="settings-btn" onclick="chrome.runtime.openOptionsPage()">Settings</button> -->
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+        <!-- Display Random Hadith/Ayat -->
+        <button id="show-hadith-btn">Show Hadith</button>
+        <div id="random-hadith" class="collapsed-hadith"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+
+</html>
